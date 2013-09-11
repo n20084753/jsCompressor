@@ -17,21 +17,21 @@ continue			|
 debugger			|
 default				|
 delete				|
-do					|
+do				|
 else				|
 finally				|
-for					|
+for				|
 function			|
-if					|
-in					|
+if				|
+in				|
 instanceof			|
-new					|
+new				|
 return				|
 switch				|
 throw				|
-try					|
+try				|
 typeof				|
-var					|
+var				|
 void				|
 while				|
 with				|
@@ -49,7 +49,7 @@ float				|
 goto				|
 implements			|
 import				|
-int					|
+int				|
 interface			|
 long				|
 native				|
@@ -60,7 +60,7 @@ public				|
 short				|
 static				|
 super				|
-synchronized		|
+synchronized			|
 throws				|
 transient			|
 volatile			{printf("%s",yytext);is_keyword_found = 1;}
