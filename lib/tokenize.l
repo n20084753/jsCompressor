@@ -80,5 +80,5 @@ volatile			{printf("%s",yytext);is_keyword_found = 1;}
 %%
 int main(){
 	yylex();
-    return 0;
+	return 0;
 }
